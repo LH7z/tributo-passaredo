@@ -1,0 +1,75 @@
+:root {
+    --font-principal: "poppins";
+    --font-teste: "inter";
+    --cor-de-fundo: #b8b7b6;
+    --cor-branco: #ffffff;
+    --cor-cinza: #878684;
+    --cor-preta: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-teste);
+    font-weight: 400;
+    background-color: var(--cor-de-fundo);
+}
+
+.header {
+    background-color: var(--cor-preta);
+    padding: 2em 0 1em;
+    text-align: center;
+}
+
+.header__titulo {
+    font-size: 34px;
+    font-weight: 700;
+    padding-bottom: .3em;
+    color: var(--cor-branco);
+}
+
+.header__texto {
+    color: var(--cor-branco);
+    
+}
+
+.container {
+    display: flex;
+    margin-bottom: 20vh;
+}
+
+.lenda__nome {
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-right: 1.5em;
+    
+}
+
+ .lenda__texto {
+    font-size: 20px;
+    font-family: var(--font-teste);
+ }
+
+.container__lendas {
+    margin: 2em 4em 0 20em;
+    width: 40%;
+    
+}
+
+.foto-infos {
+    height: 350px;
+    border-radius: 12px;
+    
+}
+
+.container__infos {
+    margin-top: 2em;
+}
+
+.infos__item {
+    padding: 1.5em 0;
+}
