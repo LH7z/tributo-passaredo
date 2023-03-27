@@ -36,38 +36,38 @@ body {
     
 }
 
+#container__1 {
+    margin-top: 5em;
+}
+
 .container {
-    display: flex;
     margin-bottom: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 35vh;
+}
+
+.container__lendas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 35%;
 }
 
 .lenda__nome {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
-    padding-bottom: 20px;
-    padding-right: 1.5em;
-    
 }
 
  .lenda__texto {
-    font-size: 20px;
+    font-size: 18px;
     font-family: var(--font-teste);
  }
 
-.container__lendas {
-    margin: 2em 4em 0 20em;
-    width: 40%;
-    
-}
-
 .foto-infos {
     height: 350px;
+    width: 350px;
     border-radius: 12px;
-    
-}
-
-.container__infos {
-    margin-top: 2em;
 }
 
 .infos__item {
