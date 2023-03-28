@@ -43,7 +43,7 @@ body {
 .container {
     margin-bottom: 20vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-bottom: 35vh;
 }
 
@@ -51,7 +51,8 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 35%;
+    width: 50%;
+    padding-right: 4em;
 }
 
 .lenda__nome {
